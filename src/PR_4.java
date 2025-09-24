@@ -19,7 +19,7 @@ class PhoneOwner implements PhoneOwnerInterface {
         this.phoneNumber = phoneNumber;
     }
 
-    // Реализация методов интерфейса
+
     public String getFullName() {
         return surname + " " + name + " " + patronymic;
     }
